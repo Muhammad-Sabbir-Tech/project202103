@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .topBanner h1{ font-size: 42px;}
+}
+@media only screen and (max-width: 600px) {
+    .topBanner h1{ font-size: 30px;}
+    .topBanner{margin-top: 50px !important}
+    .featureIcon{font-size: 1.5rem;padding: 1rem;border-radius: 20px;}
+    .featureCol{margin-bottom:1.5rem}
+    .serviceContainer h1{font-size: 1.5rem;}
+    .CoreFeatureContainer h4{font-size: 1.5rem;}
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
+

@@ -1,0 +1,161 @@
+*{
+    scroll-behavior: smooth;
+
+}
+:root{
+    --brandColor:#01012d;
+    --sectionHeaderFontSize: 1.4rem;
+    --sectionHeaderFontFamily : "DM Sans";
+    --contentHeaderFontSize : 1.8rem;
+    --sectionHeaderFontWeight:800;
+}
+body{
+    overflow-x: hidden;
+}
+.topNavBarBrand{
+    font-size: 18px !important;
+    font-weight: 800;
+    font-family:Montserrat;
+    text-transform: uppercase;
+    color: var(--brandColor) ;
+}
+.navMenu{
+    font-size: 18px !important;
+    font-family: "DM Sans";
+
+}
+.nav-link:hover{
+    color: crimson !important;
+}
+.navShadow{
+    box-shadow: 0px -3px 8px rgba(1, 1, 45, 0.41);
+    transition: all 0.5s ease !important;
+
+}
+
+.topBanner h1{
+    font-family: "Montserrat Alternates";
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--brandColor);
+}
+
+.topBannerContainer img{
+    /*box-shadow: 2px 3px 7px rgba(1, 1, 45, 0.42) !important ;*/
+    cursor: pointer;
+}
+.featureIcon{
+   color: white;
+    font-size: 1.8rem;
+    background-color: crimson;
+    box-sizing: content-box;
+    padding: 1.3rem;
+    border-radius: 25px;
+    box-shadow:  0px 8px 24px rgba(220, 20, 60, 0.43) !important;
+
+}
+.featureCol h5{
+    font-size: var(--sectionHeaderFontSize);
+    font-family: var(--sectionHeaderFontFamily);
+    font-weight: var(--sectionHeaderFontWeight);
+    color: var(--brandColor);;
+}
+.featureContainer p{
+    font-family: "DM Sans";
+    color: crimson;
+}
+.featureContainer h4{
+    font-family: "DM Sans";
+    font-weight: 600;
+    color: var(--brandColor);
+}
+
+.serviceContainer p{
+    font-family: "DM Sans";
+    color: crimson;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.serviceContainer h1{
+    font-family: "Montserrat Alternates";
+    font-size: var(--contentHeaderFontSize);
+    font-weight: 700;
+    color:  var(--brandColor);
+}
+.serviceContainer h5{
+    font-size: 1.4rem;
+    font-family: "DM Sans";
+    font-weight: 800;
+}
+.serviceIcon{
+    color: white;
+    font-size: 1.5rem;
+    background-color: crimson;
+    box-sizing: content-box;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow:  0px 8px 24px rgba(220, 20, 60, 0.43) !important;
+
+}
+
+
+.coreFt{
+    font-family: "DM Sans";
+    color: crimson;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.CoreFeatureContainer h4{
+    font-family: "Montserrat Alternates";
+    font-size: var(--contentHeaderFontSize);
+    font-weight: 700;
+    color:  var(--brandColor);
+}
+
+.coreFtDes{
+    color: rgba(1, 1, 45, 0.83);
+    font-size: 18px;
+    line-height: 35px;
+}
+.howItWorkBg{
+    background: #ff1e49;
+}
+.howItWorkBg h5{
+    font-size: var(--sectionHeaderFontSize);
+    font-family: var(--sectionHeaderFontFamily);
+    font-weight: var(--sectionHeaderFontWeight);
+    color: white;
+}
+.howItWorkBg h4:first-child{
+    padding: 1rem;
+    background: white;
+    display: inline-block;
+    font-weight: 700 !important;
+    color: var(--brandColor) !important;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin-top: auto !important;
+}
+.howItWorkBg h4{
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+
+}
+.howItWorkBg span{
+
+    color: #d0d0d0;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.pricingComponent p:first-child{
+    font-family: "DM Sans";
+    color: crimson;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
